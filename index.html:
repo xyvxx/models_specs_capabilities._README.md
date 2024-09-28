@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Pop-Up</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <button id="open-popup">Open Secure Pop-Up</button>
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close" id="close-popup">&times;</span>
+            <h2>Secure Information</h2>
+            <textarea id="encryptedData" readonly></textarea>
+            <button id="decryptButton">Decrypt</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
